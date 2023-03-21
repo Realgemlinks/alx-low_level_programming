@@ -3,10 +3,15 @@
 /**
  * print_alphabet - a function that prints the alphabet, in lowercase
  *
- * Return: Always 0
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0)
+	char c;
+
+	for (c = 'a'; n <= 'z'; c++)
+	{
+	_putchar(c);
+	}
+	_putchar('\n');
 }
